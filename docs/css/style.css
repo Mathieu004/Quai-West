@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color:white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*---------------------------------------------------------------- NAV -------------------------------------------------------------------------*/
+
+nav {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color:#ffffff;
+    padding: 16px;
+}
+
+nav img {
+    width: 200px;
+    filter: invert(1);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    font-weight: bold;
+    font-size: 0.95em;
+    color: white;
+    padding: 12px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ffb42a;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.btn-reserver {
+    border: solid 2px #c89446;
+    color: #fff;
+
+}
+
+.btn-reserver:hover {
+    border-radius: 0px;
+    border: solid 2px #c89446;
+    background: #c89446;
+    color: #fff;
+}
+
+/*---------------------------------------------------------------- HEADER -------------------------------------------------------------------------*/
+
+.header_0 {
+    font-size:86px;
+    font-weight: 500;
+}
+
+.btn {
+    color: #1d1d1d;
+    background-color: #ffb42a;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.header {
+    position: absolute;
+    top: 0px;
+    background: url(../img/french.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.header .header-content {
+    background-color: #00000065;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.btn_cta:hover {
+    background-color: #1d1d1d;
+    color: #ffb42a;
+}
+
+.header .header-content .header_0 {
+    font-family: 'Pinyon Script',serif;
+    color: #c89446;
+}
+
+.header .header-content .header_1 {
+    font-size: 4.375rem;
+    letter-spacing: 12px;
+    padding-bottom: 18px;   
+}
+
+.cta_catch {
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+
+.header .header-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/*---------------------------------------------------------------- PRESENTATION -------------------------------------------------------------------------*/
+.background-fiches {
+    background: url(../img/white.avif);
+}
+
+.fiches {
+    margin: auto;
+    margin-top: 50vh;
+    color:black;
+    padding: 0 20px;
+    max-width: 960px;
+}
+
+.fiches .fiche {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.fiches .fiche:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img-presentation {
+    height: 450px;
+    width: 350px;
+}
+
+.img-presentation {
+  border: none;
+  outline: 2px solid #c89446;
+  outline-offset: 10px;
+}
+
+.fiches .fiche .h3-presentation {
+    font-size: 3.75rem;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.selection {
+    font-size: 1rem;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1rem 0 0 0;
+}
+
+.fiches .fiche div {
+    margin: 40px;
+    padding: 20px;
+}
+
+.fiches h3 {
+    font-family: 'Pinyon Script',serif;
+    color: #c89446;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fiches h3::before {
+    content: '';
+    display: flex;
+    width: 35px;
+    height: 1px;
+    background: #c89446;
+    margin-bottom: 5px;
+  }
+
+.fiches .fiche div p {
+    font-family: 'Source Sans Pro',sans-serif;
+    line-height: 1.625;
+    color: #6f6f6f;
+    text-align: justify;
+}
+
+.fiches .fiche div a {
+    font-family: 'Source Sans Pro',sans-serif;
+    color: #c89446;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+/*---------------------------------------------------------------- MENU -------------------------------------------------------------------------*/
+
+.background-menu {
+    background: linear-gradient(to bottom,#fff,#c1c1c1c4)
+}
+
+.menu {
+    margin: auto;
+    color:black;
+    padding: 0 20px;
+    max-width: 800px;
+}
+
+.menu h1 {
+    text-align: center;
+    font-family: 'Pinyon Script',serif;
+    color: #c89446;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.menu .fiche-burger {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.menu .fiche-burger:nth-child(odd) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img-burger {
+    height: 200px;
+    border: none;
+    outline: 2px solid #c89446;
+    outline-offset: 5px;
+}
+
+.menu h3 {
+    font-family: 'Pinyon Script',serif;
+    color: #c89446;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu h3::before {
+    content: '';
+    display: flex;
+    width: 35px;
+    height: 1px;
+    background: #c89446;
+    margin-bottom: 5px;
+  }
+
+.menu .fiche-burger div {
+    margin: 40px;
+}
+
+.menu .fiche-burger div p {
+    font-family: 'Source Sans Pro',sans-serif;
+    line-height: 1.625;
+    color: #6f6f6f;
+    text-align: justify;
+}
+
+.block {
+    background-color: #c1c1c1c4;
+    width: 100%;
+    height: 300px;
+}
+/*---------------------------------------------------------------- FOOTER -------------------------------------------------------------------------*/
+
+footer {
+    background-color: #383838;
+    padding: 40px 0;
+    font-weight: 300;
+    color: #fff;
+}
+
+footer section {
+    font-family: 'Source Sans Pro',sans-serif;
+    line-height: 1.625;
+    margin:0 auto;
+    padding:0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-right: 35%;
+}
+
+footer section div {
+    margin: 50px;
+    min-width: 250px;
+}
+
+footer section div h4 {
+    color: #c89446;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1.25em;
+}
+
+footer section div a {
+    color:#fff;
+    text-decoration: underline;
+}
+
+footer section div a:hover {
+    color: #c89446;
+    transition: 0.5s;
+}
+
+
+
+
+  

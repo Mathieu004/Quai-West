@@ -1,0 +1,110 @@
+[
+    {
+        "nom": "Auvergnat",
+        "prix": 14.90,
+        "categorie": "Classic Burgers ✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns aux graines de pavot, sauce aux cèpes, steak de bœuf 150g, magret fumé, confiture d’oignons, bleu d’Auvergne AOP, salade Iceberg."
+    },
+    {
+        "nom": "Savoyard",
+        "prix": 14.90,
+        "categorie": "Classic Burgers ✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns nature, sauce oignons, steak de boeuf 150g, poitrine fumée, tomme de vache, confiture d’oignons, salade Iceberg."
+    },
+    {
+        "nom": "Basque",
+        "prix": 14.90,
+        "categorie": "Classic Burgers ✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns nature, sauce ketchup basque, steak de bœuf 150g, chorizo, tomme de brebis, piquillos, salade Iceberg."
+    },
+    {
+        "nom": "Normand",
+        "prix": 14.90,
+        "categorie": "Classic Burgers ✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns aux graines de pavot sauce miel-moutarde à l’ancienne, croustillant de filet de poulet 110g, camembert, salade iceberg.    "
+    },
+    {
+        "nom": "Breton",
+        "prix": 14.90,
+        "categorie": "Classic Burgers ✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns nature, steak de saumon snacké, avocat, saint moret citronné à l’aneth"
+    },
+
+
+
+
+
+    {
+        "nom": "Landais",
+        "prix": 17.90,
+        "categorie": "Premium Burgers ✩✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns aux graines de pavot, sauce aux cèpes, steak de canard confit, bleu d’Auvergne AOP, salade Iceberg, tomate."
+    },
+    {
+        "nom": "Saint Germain",
+        "prix": 17.90,
+        "categorie": "Premium Burgers ✩✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns nature, ketchup basque, oeuf au plat, cheddar, steak de boeuf 150g, tomate, salade iceberg, mayonnaise à l’ancienne. "
+    },
+    {
+        "nom": "Globe Trotteur",
+        "prix": 17.90,
+        "categorie": "Premium Burgers ✩✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns aux graines de pavot, cheddar, bacon grillé, oignons fondus, avocat, cornichons vinaigrés, steak de boeuf 150g, chutney d’oignons rouges au gingembre, iceberg. "
+    },
+    {
+        "nom": "Larzac",
+        "prix": 17.90,
+        "categorie": "Premium Burgers ✩✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns nature, sauce miel & moutarde, camembert, caviar d’aubergines, steack quinoa et petits légumes, tomate, mesclun."
+    },
+    {
+        "nom": "Val d'Arly",
+        "prix": 17.90,
+        "categorie": "Premium Burgers ✩✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": ""
+    },
+
+
+
+
+
+    {
+        "nom": "Sarladais",
+        "prix": 17.90,
+        "categorie": "All Star Burgers ✩✩✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns nature, sauce aux cèpes, steak de bœuf 150g, tomme de vache, foie gras, gésiers, magret fumé, confiture d’oignons, mesclun. "
+    },
+    {
+        "nom": "Cesar Palace",
+        "prix": 17.90,
+        "categorie": "All Star Burgers ✩✩✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns aux graines de pavot, sauce césar, copeaux de parmesan, croustillant de filet de poulet, cheddar, champignons de Paris, oignons, cornichons, salade mesclun."
+    },
+    {
+        "nom": "Corse",
+        "prix": 17.90,
+        "categorie": "All Star Burgers ✩✩✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns nature, sauce oignons, steak de bœuf 150g, tomme de brebis, chutney de figues, coppa, oignons rouges, mesclun. "
+    },
+    {
+        "nom": "Bearnais",
+        "prix": 17.90,
+        "categorie": "All Star Burgers ✩✩✩",
+        "image": "docs/img/burger-maison.jpeg",
+        "description": "Buns aux graines, sauce miel moutarde à l’ancienne, ossau-iraty, poitrine grillée, steak de boeuf, oignons fondus, mesclum"
+    }
+]

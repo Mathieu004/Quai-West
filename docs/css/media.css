@@ -1,0 +1,158 @@
+@media screen and (max-width: 950px) {
+    footer section div {
+        margin: 10px;
+        min-width: 200px;
+    }
+
+    footer section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    nav ul li a {
+        font-size: 0.7em;
+    }
+
+    nav img {
+        width: 120px;    
+    }
+
+    .img-presentation {
+        height: 350px;
+        width: 250px;
+    }
+    
+    .img-presentation {
+      outline-offset: 7px;
+    }
+
+    .fiches .fiche .h3-presentation {
+        font-size: 2.75rem;
+    }
+    
+    .selection {
+        font-size: 0.7rem;
+    }
+
+    .fiches .fiche div p {
+        line-height: 1.2;
+        font-size: 0.8rem;
+    }
+
+    .img-burger {
+        height: 170px;
+    }
+
+    .menu h3 {
+        font-size: 20px;
+    }
+
+    .menu h3::before {
+        width: 20px;
+    }
+
+    .menu h4 {
+        font-size: 10px;
+    }
+
+    .menu .fiche-burger div {
+        margin: 20px;
+    }
+
+    .menu .fiche-burger div p {
+        line-height: 1.2;
+        font-size: 0.8rem;
+    }
+
+    footer section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer section div {
+        margin-top: 20px;
+        min-width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 615px) {
+    .header .header-content .header_1 {
+      font-size: 3rem; 
+    }
+}
+
+@media screen and (max-width: 520px) {
+    nav img {
+        width: 100px;
+    }
+
+    .img-presentation {
+        height: 250px;
+        width: 180px;
+    }
+    
+    .img-presentation {
+      outline-offset: 5px;
+    }
+
+    .fiches .fiche div {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .fiches .fiche .h3-presentation {
+        font-size: 2rem;
+    }
+    
+    .selection {
+        font-size: 0.5rem;
+    }
+
+    .fiches .fiche div p {
+        line-height: 1;
+        font-size: 0.6rem;
+    }
+
+    .fiches .fiche div a {
+        font-size: 0.6rem;
+        margin-top: 10px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .header .header-content .header_1 {
+      font-size: 2.5rem; 
+    }
+
+    nav ul li a {
+        font-size: 0.55em;
+    }
+
+    nav img {
+        width: 100px;    
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .header .header-content .header_1 {
+        font-size: 2rem; 
+    }
+
+    nav ul li a {
+        padding: 12px;
+        margin-left: 5px;
+        font-size: 0.5em;
+    }
+
+    nav img {
+        width: 80px;    
+    }
+
+    .img-presentation {
+        height: 200px;
+        width: 130px;
+    }
+}
