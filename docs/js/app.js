@@ -1,8 +1,18 @@
+/*----------------------------------------------------------- PAGE RELOAD ----------------------------------------------------------------------------*/
+
+window.onload = function() {
+  window.scrollTo(0, 0);
+};
+
 const img = document.querySelector('#bg-image');
+
+/*----------------------------------------------------------- ANIMATION SCROLL IMG ----------------------------------------------------------------------------*/
 
 window.addEventListener('scroll', () => {
   img.style.transform = `translateY(-${window.scrollY * 1.5}px)`;
 });
+
+/*----------------------------------------------------------- ANIMATION SCROLL PRESENTATION ----------------------------------------------------------------------------*/
 
 function scrollToSectionOnce(event) {
   event.preventDefault();
@@ -15,11 +25,20 @@ function scrollToSectionOnce(event) {
 }
 window.addEventListener("wheel", scrollToSectionOnce);
 
+/*----------------------------------------------------------- VOIR PLUS PRESENTATION ----------------------------------------------------------------------------*/
+
+
 const linkToSalades = document.querySelector('#salades');
+const linkToBurger = document.querySelector('#burgers');
 
 linkToSalades.addEventListener('click', (event) => {
   
   btnSalade.click();
+});
+
+linkToBurger.addEventListener('click', (event) => {
+  
+  btnClassicBurger.click();
 });
 
 /*----------------------------------------------------------- MENU-NAVIGATION ----------------------------------------------------------------------------*/
