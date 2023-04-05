@@ -4,6 +4,15 @@ window.addEventListener('scroll', () => {
   img.style.transform = `translateY(-${window.scrollY * 1.5}px)`;
 });
 
+window.addEventListener("wheel", function(event) {
+  event.preventDefault();
+  var delta = event.wheelDelta || -event.detail;
+  var section = document.getElementById("A-propos");
+  if (delta < 0 && section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+});
+
 /*----------------------------------------------------------- MENU-NAVIGATION ----------------------------------------------------------------------------*/
 
 
