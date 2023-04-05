@@ -157,6 +157,9 @@ nav ul li a:hover {
     align-items: center;
     display: flex;
     flex-direction: row;
+}
+
+.fiches .fiche:first-of-type {
     margin-bottom: 100px;
 }
 
@@ -231,24 +234,58 @@ nav ul li a:hover {
 /*---------------------------------------------------------------- MENU -------------------------------------------------------------------------*/
 
 .background-menu {
-    background: linear-gradient(to bottom,#fff,#c1c1c1c4)
+    background-color: #00000013;
+    padding: 150px;
 }
 
 .menu {
     margin: auto;
     color:black;
+    background-color: #fff;
+    border: solid 3px black;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
     padding: 0 20px;
     max-width: 800px;
 }
 
 .menu h1 {
+    padding-top: 40px;
     text-align: center;
     font-family: 'Pinyon Script',serif;
     color: #c89446;
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 100px;
 }
+
+/*----------------------------------- NAVIGATION MENU -------------------------------------*/
+
+.menu-option {
+    text-align: center;
+}
+
+.menu-option button {
+    margin: 30px 10px 30px 10px;   
+    padding: 5px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1rem;
+    color: #6f6f6f;
+    border:none;
+    background-color: white;
+}
+
+.menu-option button:first-child {
+    border-bottom: 2px solid #c89446;
+}
+  
+.menu-option button:hover {
+    color: #c89446;
+}
+
+.hidden {
+    display: none;
+}  
+
+/*-----------------------------------------------------------------------------------------*/
 
 .menu .fiche-burger {
     align-items: center;
@@ -301,6 +338,38 @@ nav ul li a:hover {
     width: 100%;
     height: 300px;
 }
+
+/*---------------------------------------------------------------- LOCALISATION -------------------------------------------------------------------------*/
+
+.localisation {
+    color: #1d1d1d;
+    background-color:#c1c1c1c4;
+}
+
+.localisation h1 {
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    padding-top:70px;
+}
+
+.localisation div {
+    color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    margin-top: 50px;
+}
+
+iframe {
+    width: 80vw;
+    height: 400px;
+    border: solid 4px#c89446;
+}
+
+
+
 /*---------------------------------------------------------------- FOOTER -------------------------------------------------------------------------*/
 
 footer {

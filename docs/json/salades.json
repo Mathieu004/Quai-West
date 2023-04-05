@@ -1,0 +1,26 @@
+[
+    {
+        "nom": "César",
+        "prix": 13,
+        "image": "docs/img/salade.jpg",
+        "description": "Salade mesclun, poulet, tomates, œuf, croûtons, parmesan, sauce césar par fabrice biasiolo."
+    },
+    {
+        "nom": "Jersey",
+        "prix": 13,
+        "image": "docs/img/salade.jpg",
+        "description": "Salade mesclum, toasts de camembert, poitrine grillée, pommes, noix et croûtons."
+    },
+    {
+        "nom": "Chèvre Chaud",
+        "prix": 14,
+        "image": "docs/img/salade.jpg",
+        "description": "Salade mesclun, chiffonade de jambon de pays, tomates, piquillos, toasts de chèvre chaud au miel."
+    },
+    {
+        "nom": "Sud Ouest",
+        "prix": 17,
+        "image": "docs/img/salade.jpg",
+        "description": "Salade mesclun, tomates, gésiers de canard confits, magret fumé, foie gras, noix et croûtons."
+    }
+]

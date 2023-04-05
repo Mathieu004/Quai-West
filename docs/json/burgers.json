@@ -25,14 +25,14 @@
         "prix": 14.90,
         "categorie": "Classic Burgers ✩",
         "image": "docs/img/burger-maison.jpeg",
-        "description": "Buns aux graines de pavot sauce miel-moutarde à l’ancienne, croustillant de filet de poulet 110g, camembert, salade iceberg.    "
+        "description": "Buns aux graines de pavot sauce miel-moutarde à l’ancienne, croustillant de filet de poulet 110g, camembert, salade iceberg."
     },
     {
         "nom": "Breton",
         "prix": 14.90,
         "categorie": "Classic Burgers ✩",
         "image": "docs/img/burger-maison.jpeg",
-        "description": "Buns nature, steak de saumon snacké, avocat, saint moret citronné à l’aneth"
+        "description": "Buns nature, steak de saumon snacké, avocat, saint moret citronné à l’aneth."
     },
 
 
