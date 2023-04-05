@@ -14,7 +14,22 @@ window.addEventListener('scroll', () => {
 
 /*----------------------------------------------------------- ANIMATION SCROLL PRESENTATION ----------------------------------------------------------------------------*/
 
+var linkClicked = false;
+
+function handleLinkClick() {
+  linkClicked = true;
+}
+
+var links = document.getElementsByTagName('a');
+for (var i = 0; i < links.length; i++) {
+  links[i].addEventListener('click', handleLinkClick);
+}
+
 function scrollToSectionOnce(event) {
+  if (linkClicked) {
+    return;
+  }
+
   event.preventDefault();
   var delta = event.wheelDelta || -event.detail;
   var section = document.getElementById("A-propos");
@@ -23,6 +38,7 @@ function scrollToSectionOnce(event) {
     window.removeEventListener("wheel", scrollToSectionOnce);
   }
 }
+
 window.addEventListener("wheel", scrollToSectionOnce);
 
 /*----------------------------------------------------------- VOIR PLUS PRESENTATION ----------------------------------------------------------------------------*/
