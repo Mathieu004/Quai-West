@@ -4,13 +4,22 @@ window.addEventListener('scroll', () => {
   img.style.transform = `translateY(-${window.scrollY * 1.5}px)`;
 });
 
-window.addEventListener("wheel", function(event) {
+function scrollToSectionOnce(event) {
   event.preventDefault();
   var delta = event.wheelDelta || -event.detail;
   var section = document.getElementById("A-propos");
   if (delta < 0 && section) {
     section.scrollIntoView({ behavior: "smooth" });
+    window.removeEventListener("wheel", scrollToSectionOnce);
   }
+}
+window.addEventListener("wheel", scrollToSectionOnce);
+
+const linkToSalades = document.querySelector('#salades');
+
+linkToSalades.addEventListener('click', (event) => {
+  
+  btnSalade.click();
 });
 
 /*----------------------------------------------------------- MENU-NAVIGATION ----------------------------------------------------------------------------*/
