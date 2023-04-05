@@ -1,0 +1,20 @@
+[
+    {
+        "nom": "Pièce Du Boucher",
+        "prix": 13,
+        "image": "docs/img/pieceboucher.jpg",
+        "description": "Pavé de coeur rumsteak maturé. Sauce au choix : roquefort, miel moutarde, poivre."
+    },
+    {
+        "nom": "Tartare De Boeuf",
+        "prix": 13,
+        "image": "docs/img/tartare.jpg",
+        "description": "Viande bovine française, préparé par nos soins (oignons, câpres et cornichons Worcestershire, ketchup, tabasco, huile d'olive et persil. Jaune d’oeuf dessus.)."
+    },
+    {
+        "nom": "Pavé De Saumon",
+        "prix": 14,
+        "image": "docs/img/saumon.jpg",
+        "description": "    Pavé de saumon, sauce à l’oseille."
+    }
+]
