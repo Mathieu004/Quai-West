@@ -242,7 +242,6 @@ nav ul li a:hover {
 .grid-presentation img {
     width: 30vw;
     max-width: 700px;
-    min-width: 300px;
 }
 
 .grid-presentation p {
@@ -284,6 +283,7 @@ nav ul li a:hover {
 
 .menu-option {
     text-align: center;
+    margin-bottom:30px;
 }
 
 .menu-option button {

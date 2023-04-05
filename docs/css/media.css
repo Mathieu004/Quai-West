@@ -1,4 +1,29 @@
 @media screen and (max-width: 950px) {
+    .fiches .fiche:first-of-type {
+        margin-bottom: 40px;
+    }
+
+    .grid-presentation p {
+        font-size: 1rem;
+        padding:30px;
+    }
+
+    .background-menu {
+        background:white;
+        padding: 0;
+    }
+
+    .menu {
+        margin: 0;
+        color:black;
+        background-color: #fff;
+        border: none;
+        box-shadow: none;
+        padding: 0 20px;
+        max-width: none;
+        width:100vw;
+    }
+
     footer section div {
         margin: 10px;
         min-width: 200px;
@@ -44,6 +69,11 @@
         height: 170px;
     }
 
+    .grid-presentation p {
+        font-size: 0.8rem;
+        padding:15px;
+    }
+
     .menu h3 {
         font-size: 20px;
     }
@@ -80,6 +110,18 @@
 @media screen and (max-width: 615px) {
     .header .header-content .header_1 {
       font-size: 3rem; 
+    }
+
+    .grid-presentation img {
+        width: 300px;
+    }
+
+    .menu-option button {
+        margin: 10px 10px 10px 10px;
+    }
+
+    .block {
+        height: 100px;
     }
 }
 
@@ -120,6 +162,15 @@
         margin-top: 10px;
         letter-spacing: 1px;
     }
+
+    .grid-presentation img {
+        width: 200px;
+    }
+
+    .grid-presentation p {
+        font-size: 0.6rem;
+    }
+
 }
 
 @media screen and (max-width: 465px) {
@@ -154,5 +205,25 @@
     .img-presentation {
         height: 200px;
         width: 130px;
+    }
+
+    .grid-presentation img {
+        width: 150px;
+    }
+
+    .grid-presentation p {
+        font-size: 0.5rem;
+    }
+
+    .menu .fiche-burger {
+        padding: 5px;
+    }
+
+    .menu .fiche-burger div {
+        margin: 20px;
+    }
+
+    .menu .fiche-burger div p {
+        line-height: 1.525;
     }
 }
