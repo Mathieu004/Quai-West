@@ -16,31 +16,51 @@ const PremiumBurger = document.querySelector('.option-premium-burger');
 const btnAllStarBurger = document.querySelector('.btn-allstar-burger');
 const AllStarBurger = document.querySelector('.option-allstar-burger');
 
+const btnSalade = document.querySelector('.btn-salade');
+const Salade = document.querySelector('.option-salade');
+
 btnClassicBurger.addEventListener('click', () => {
   ClassicBurger.classList.remove('hidden');
   PremiumBurger.classList.add('hidden');
   AllStarBurger.classList.add('hidden');
+  Salade.classList.add('hidden');
   btnClassicBurger.style.borderBottom = '2px solid #c89446';
   btnPremiumBurger.style.borderBottom = 'none';
   btnAllStarBurger.style.borderBottom = 'none';
+  btnSalade.style.borderBottom = 'none';
 });
 
 btnPremiumBurger.addEventListener('click', () => {
   PremiumBurger.classList.remove('hidden');
   ClassicBurger.classList.add('hidden');
   AllStarBurger.classList.add('hidden');
+  Salade.classList.add('hidden');
   btnClassicBurger.style.borderBottom = 'none';
   btnPremiumBurger.style.borderBottom = '2px solid #c89446';
   btnAllStarBurger.style.borderBottom = 'none';
+  btnSalade.style.borderBottom = 'none';
 });
 
 btnAllStarBurger.addEventListener('click', () => {
   AllStarBurger.classList.remove('hidden');
   ClassicBurger.classList.add('hidden');
   PremiumBurger.classList.add('hidden');
+  Salade.classList.add('hidden');
   btnClassicBurger.style.borderBottom = 'none';
   btnPremiumBurger.style.borderBottom = 'none';
   btnAllStarBurger.style.borderBottom = '2px solid #c89446';
+  btnSalade.style.borderBottom = 'none';
+});
+
+btnSalade.addEventListener('click', () => {
+  Salade.classList.remove('hidden');
+  AllStarBurger.classList.add('hidden');
+  ClassicBurger.classList.add('hidden');
+  PremiumBurger.classList.add('hidden');
+  btnClassicBurger.style.borderBottom = 'none';
+  btnPremiumBurger.style.borderBottom = 'none';
+  btnAllStarBurger.style.borderBottom = 'none';
+  btnSalade.style.borderBottom = '2px solid #c89446';
 });
 
 
@@ -89,3 +109,31 @@ fetch('docs/json/burgers.json')
     });
   }).catch(error => console.error(error));
 
+  fetch('docs/json/salades.json')
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(element => {
+
+      const fiche = document.createElement('div');
+      fiche.classList.add('fiche-burger');
+
+      const image = document.createElement('img');
+      image.classList.add('img-burger');
+      image.src = element.image;;
+      fiche.appendChild(image);
+
+      const div = document.createElement('div');
+      fiche.appendChild(div);
+
+      const nom = document.createElement('h3');
+      nom.textContent = `${element.nom == "" ? `Pas de nom pour l'instant` : element.nom == false ? `Pas de nom pour l'instant` : element.nom}`;;
+      div.appendChild(nom);
+
+      const description = document.createElement('p');
+      description.textContent =  `${element.description == "" ? `Pas de description pour l'instant` : element.description == false ? `Pas de description pour l'instant` : element.description}`;
+      div.appendChild(description);
+
+      document.querySelector('.option-salade').appendChild(fiche);
+
+    });
+  }).catch(error => console.error(error));
