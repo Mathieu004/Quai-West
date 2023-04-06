@@ -3,6 +3,10 @@
         margin-bottom: 40px;
     }
 
+    .grid-presentation img {
+        width: 360px;
+    }
+
     .grid-presentation p {
         font-size: 1rem;
         padding:30px;
@@ -113,7 +117,7 @@
     }
 
     .grid-presentation img {
-        width: 300px;
+        width: 320px;
     }
 
     .menu-option button {
@@ -164,11 +168,19 @@
     }
 
     .grid-presentation img {
-        width: 200px;
+        width: 260px;
     }
 
     .grid-presentation p {
         font-size: 0.6rem;
+    }
+
+    .menu-option button {
+        font-size: 0.8rem;
+    }
+
+    iframe {
+        height: 300px;
     }
 
 }
@@ -184,6 +196,10 @@
 
     nav img {
         width: 100px;    
+    }
+
+    .grid-presentation img {
+        width: 230px;
     }
 }
 
@@ -208,7 +224,7 @@
     }
 
     .grid-presentation img {
-        width: 150px;
+        width: 230px;
     }
 
     .grid-presentation p {
@@ -225,5 +241,33 @@
 
     .menu .fiche-burger div p {
         line-height: 1.525;
+    }
+
+    iframe {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .grid-presentation img {
+        width: 180px;
+    }
+}
+
+/*---------------------------------------------------------------- HEIGHT -------------------------------------------------------------------------*/
+
+@media screen and (max-height: 415px) {
+    .header_0 {
+        font-size: 70px;
+    }
+    
+    .header .header-content .header_1 {
+        font-size: 3.375rem;
+        letter-spacing: 12px;
+        padding-bottom: 18px;   
+    }
+
+    .header .header-content p {
+        font-size: 0.8rem;
     }
 }

@@ -77,11 +77,6 @@ nav ul li a:hover {
 
 /*---------------------------------------------------------------- HEADER -------------------------------------------------------------------------*/
 
-.header_0 {
-    font-size:86px;
-    font-weight: 500;
-}
-
 .btn {
     color: #1d1d1d;
     background-color: #ffb42a;
@@ -107,14 +102,9 @@ nav ul li a:hover {
     align-items: center;
 }
 
-
-
-.btn_cta:hover {
-    background-color: #1d1d1d;
-    color: #ffb42a;
-}
-
-.header .header-content .header_0 {
+.header_0 {
+    font-size:86px;
+    font-weight: 500;
     font-family: 'Pinyon Script',serif;
     color: #c89446;
 }
@@ -123,6 +113,11 @@ nav ul li a:hover {
     font-size: 4.375rem;
     letter-spacing: 12px;
     padding-bottom: 18px;   
+}
+
+.btn_cta:hover {
+    background-color: #1d1d1d;
+    color: #ffb42a;
 }
 
 .cta_catch {
