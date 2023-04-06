@@ -1,4 +1,9 @@
 @media screen and (max-width: 950px) {
+    nav {
+        justify-content: space-between;
+        gap: 0;
+    }
+
     .fiches .fiche:first-of-type {
         margin-bottom: 40px;
     }
@@ -191,11 +196,15 @@
     }
 
     nav ul li a {
-        font-size: 0.55em;
+        font-size: 0.7em;
+    }
+
+    nav {
+        justify-content: center;
     }
 
     nav img {
-        width: 100px;    
+            display: none;
     }
 
     .grid-presentation img {
@@ -204,6 +213,7 @@
 }
 
 @media screen and (max-width: 415px) {
+
     .header .header-content .header_1 {
         font-size: 2rem; 
     }
@@ -211,11 +221,7 @@
     nav ul li a {
         padding: 12px;
         margin-left: 5px;
-        font-size: 0.5em;
-    }
-
-    nav img {
-        width: 80px;    
+        font-size: 0.7em;
     }
 
     .img-presentation {
@@ -249,6 +255,10 @@
 }
 
 @media screen and (max-width: 380px) {
+    nav ul li a {
+        font-size: 0.6em;
+    }
+
     .grid-presentation img {
         width: 180px;
     }

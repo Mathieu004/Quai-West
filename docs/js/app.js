@@ -13,7 +13,7 @@ window.addEventListener('scroll', () => {
 });
 
 /*----------------------------------------------------------- ANIMATION SCROLL PRESENTATION ----------------------------------------------------------------------------*/
-
+/*
 var linkClicked = false;
 
 function handleLinkClick() {
@@ -40,7 +40,7 @@ function scrollToSectionOnce(event) {
 }
 
 window.addEventListener("wheel", scrollToSectionOnce);
-
+*/
 /*----------------------------------------------------------- VOIR PLUS PRESENTATION ----------------------------------------------------------------------------*/
 
 
