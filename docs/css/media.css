@@ -259,8 +259,13 @@
         font-size: 0.6em;
     }
 
+    .grid-presentation {
+        padding: 2px;
+        margin: 5px;
+    }
+
     .grid-presentation img {
-        width: 180px;
+        width: 190px;
     }
 }
 

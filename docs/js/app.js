@@ -12,6 +12,14 @@ window.addEventListener('scroll', () => {
   img.style.transform = `translateY(-${window.scrollY * 1.5}px)`;
 });
 
+/*----------------------------------------------------------- FOOTER ACCUEIL LINK ----------------------------------------------------------------------------*/
+
+const acceuilFooter = document.getElementById("Accueil");
+
+acceuilFooter.addEventListener("click", function() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+})
+
 /*----------------------------------------------------------- ANIMATION SCROLL PRESENTATION ----------------------------------------------------------------------------*/
 /*
 var linkClicked = false;
