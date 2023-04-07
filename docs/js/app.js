@@ -204,6 +204,8 @@ fetch('docs/json/burgers.json')
     });
   }).catch(error => console.error(error));
 
+/*---------------------------------------------------------------- SALADES ---------------------------------------------------------------------------------*/
+
   fetch('docs/json/salades.json')
   .then(response => response.json())
   .then(data => {
@@ -232,6 +234,8 @@ fetch('docs/json/burgers.json')
 
     });
   }).catch(error => console.error(error));
+
+/*---------------------------------------------------------------- VIANDES & POISSON ---------------------------------------------------------------------------------*/
 
   fetch('docs/json/viandes&poisson.json')
   .then(response => response.json())
