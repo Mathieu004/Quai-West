@@ -230,14 +230,12 @@ nav ul li a:hover {
 /*----------------------------------- CUISINE PRESENTATION -------------------------------------*/
 
 .grid-presentation {
-    padding-top: 20px;
-    padding-bottom:20px;
+    padding: 20px;
     margin-top: 40px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    border-top: 2px solid rgb(133, 133, 133);
-    border-bottom: 2px solid rgb(133, 133, 133);
+    border: 2px solid #c89446;
 }
 
 .img1-grid {

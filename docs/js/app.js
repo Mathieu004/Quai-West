@@ -21,7 +21,7 @@ acceuilFooter.addEventListener("click", function() {
 })
 
 /*----------------------------------------------------------- ANIMATION SCROLL PRESENTATION ----------------------------------------------------------------------------*/
-/*
+
 var linkClicked = false;
 
 function handleLinkClick() {
@@ -48,7 +48,7 @@ function scrollToSectionOnce(event) {
 }
 
 window.addEventListener("wheel", scrollToSectionOnce);
-*/
+
 /*----------------------------------------------------------- VOIR PLUS PRESENTATION ----------------------------------------------------------------------------*/
 
 
